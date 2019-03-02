@@ -3,10 +3,14 @@ package cwiczenie;
 public class SumEquation implements ICalculable {
     private double liczba1;
     private double liczba2;
-    private double suma;
+
+    public SumEquation(double liczba1, double liczba2) {
+        this.liczba1 = liczba1;
+        this.liczba2 = liczba2;
+    }
 
     public double calculate(){
-        suma = liczba1 + liczba2;
+        double suma = liczba1 + liczba2;
         return suma;
     }
 

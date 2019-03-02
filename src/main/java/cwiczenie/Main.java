@@ -13,11 +13,18 @@ public class Main {
 
         System.out.println("wybierz co chcesz zrobic: add/sub/div/mul ");
         String zdanie = scanner.nextLine();
+
         switch (zdanie) {
+
             case "sum":
                 SumEquation sumEquation = new SumEquation(liczba1, liczba2);
                 System.out.println(sumEquation.calculate());
                 break;
+
+            case "add":
+                System.out.println("Wynik dodawania to:");
+                return;
+
             case "sub":
                 SubstractEquation substractEquation = new SubstractEquation(liczba1, liczba2);
                 System.out.println(substractEquation.calculate());
