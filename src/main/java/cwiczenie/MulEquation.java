@@ -13,7 +13,7 @@ public class MulEquation {
 
 
     public double calculate(){
-        double mnozenie = liczba1 / liczba2;
+        double mnozenie = liczba1 * liczba2;
         return mnozenie;
     }
 }
