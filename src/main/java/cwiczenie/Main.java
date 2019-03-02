@@ -33,6 +33,10 @@ public class Main {
                 MulEquation mulEquation = new MulEquation(liczba1, liczba2);
                 System.out.println(mulEquation.calculate());
                 break;
+            case "pow":
+                PowEquation powEquation = new PowEquation(liczba1, liczba2);
+                System.out.println(powEquation.calculate());
+                break;
 
         }
 
