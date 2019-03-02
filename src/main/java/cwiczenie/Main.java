@@ -13,8 +13,10 @@ public class Main {
 
         System.out.println("wybierz co chcesz zrobic: add/sub/div/mul ");
         String zdanie = scanner.nextLine();
+
         switch (zdanie) {
             case "add":
+                System.out.println("Wynik dodawania to:");
                 return;
             case "sub":
                 return;
