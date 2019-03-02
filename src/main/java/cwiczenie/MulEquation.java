@@ -4,9 +4,14 @@ public class MulEquation {
 
     private double liczba1;
     private double liczba2;
-    private double mnozenie;
+
+    public MulEquation(double liczba1, double liczba2) {
+        this.liczba1 = liczba1;
+        this.liczba2 = liczba2;
+    }
+
     public double calculate(){
-        mnozenie = liczba1 / liczba2;
+        double mnozenie = liczba1 / liczba2;
         return mnozenie;
     }
 }

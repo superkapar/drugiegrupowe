@@ -14,14 +14,23 @@ public class Main {
         System.out.println("wybierz co chcesz zrobic: add/sub/div/mul ");
         String zdanie = scanner.nextLine();
         switch (zdanie) {
-            case "add":
-                return;
+            case "sum":
+                SumEquation sumEquation = new SumEquation(liczba1, liczba2);
+                System.out.println(sumEquation.calculate());
+                break;
             case "sub":
-                return;
+                SubstractEquation substractEquation = new SubstractEquation(liczba1, liczba2);
+                System.out.println(substractEquation.calculate());
+                break;
             case "div":
-                return;
+                DivEquation divEquation = new DivEquation(liczba1, liczba2);
+                System.out.println(divEquation.calculate());
+                break;
             case "mul":
-                return;
+                MulEquation mulEquation = new MulEquation(liczba1, liczba2);
+                System.out.println(mulEquation.calculate());
+                break;
+
         }
 
 
