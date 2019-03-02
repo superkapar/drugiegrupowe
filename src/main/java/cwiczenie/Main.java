@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Podaj wartosc 2:");
         double liczba2 = Double.parseDouble(scanner.nextLine());
 
-        System.out.println("wybierz co chcesz zrobic: add/sub/div/mul ");
+        System.out.println("wybierz co chcesz zrobic: sum/sub/div/mul ");
         String zdanie = scanner.nextLine();
 
         switch (zdanie) {
@@ -20,10 +20,6 @@ public class Main {
                 SumEquation sumEquation = new SumEquation(liczba1, liczba2);
                 System.out.println(sumEquation.calculate());
                 break;
-
-            case "add":
-                System.out.println("Wynik dodawania to:");
-                return;
 
             case "sub":
                 SubstractEquation substractEquation = new SubstractEquation(liczba1, liczba2);
