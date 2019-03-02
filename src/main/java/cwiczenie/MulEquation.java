@@ -2,11 +2,11 @@ package cwiczenie;
 
 public class MulEquation {
 
-    private double a = 12;
-    private double b = 6;
+    private double liczba1;
+    private double liczba2;
     private double mnozenie;
     public double calculate(){
-        mnozenie = a / b;
+        mnozenie = liczba1 / liczba2;
         return mnozenie;
     }
 }

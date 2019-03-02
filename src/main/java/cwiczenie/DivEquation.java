@@ -1,11 +1,11 @@
 package cwiczenie;
 
 public class DivEquation implements ICalculable {
-    private double a = 10;
-    private double b = 3;
+    private double liczba1;
+    private double liczba2;
     private double dzielenie;
     public double calculate(){
-        dzielenie = a / b;
+        dzielenie = liczba1 / liczba2;
         return dzielenie;
     }
 
